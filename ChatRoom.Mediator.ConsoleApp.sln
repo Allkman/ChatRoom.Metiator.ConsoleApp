@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatRoom.Mediator.ConsoleApp", "ChatRoom.Mediator.ConsoleApp\ChatRoom.Mediator.ConsoleApp.csproj", "{527045AD-372B-422E-9DFF-EAC2203BAAFF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{233A307C-C8CB-4B7F-9A74-13BD9C95B246} = {233A307C-C8CB-4B7F-9A74-13BD9C95B246}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatRoom.Mediator.Domain", "ChatRoom.Mediator.Domain\ChatRoom.Mediator.Domain.csproj", "{233A307C-C8CB-4B7F-9A74-13BD9C95B246}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{527045AD-372B-422E-9DFF-EAC2203BAAFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527045AD-372B-422E-9DFF-EAC2203BAAFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527045AD-372B-422E-9DFF-EAC2203BAAFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527045AD-372B-422E-9DFF-EAC2203BAAFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{233A307C-C8CB-4B7F-9A74-13BD9C95B246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233A307C-C8CB-4B7F-9A74-13BD9C95B246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233A307C-C8CB-4B7F-9A74-13BD9C95B246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233A307C-C8CB-4B7F-9A74-13BD9C95B246}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C915A8E-8F2D-4243-B16C-8EDC108FA769}
+	EndGlobalSection
+EndGlobal
